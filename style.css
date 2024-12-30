@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.1em;
+    color: #696f75;
+}
+/****Couleur uitlisee: (#1dd1a1 && #c8d6e5) ****/
+/****style de l'en-tete de ma page web***/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+}
+.logo{
+    width: 300px;
+   margin-left: 300px;
+}
+.nav-links ul{
+    display: flex;
+    padding-right: 250px;
+    margin: 20px;
+}
+.nav-links ul li{
+    list-style-type: none;
+    padding: 15px ;
+    
+}
+.nav-links ul li,a{
+    text-decoration: none;
+    font-size: 1.04em;
+    color: #9299a0;
+}
+.nav-links ul li,a:hover{
+    color:#1dd1a1;
+}
+
+/*****Style de la premiere section**/
+
+.number1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px ;
+}
+.Big_title>h1{
+    font-weight: 100;
+}
+.number1 .Big_title{
+    padding-top: 50px;
+    font-size: 1.5em;
+   color:#1dd1a1
+}
+/****Style du deuxieme section***/
+.number2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocs{
+    width: 560px;
+    line-height: 1.5em;
+    padding: 20px;
+}
+/*****Style du troisieme section****/
+.number3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 1.4em;
+    color:#fff;
+}
+.number3 .blocs-color{
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    border-radius: 3%;
+    margin: 10px;
+    
+}
+.text{
+    padding: 10px 15px;
+}
+.bloc1_number3{
+    background-color: #53c6a7;
+}
+.bloc2_number3{
+    background-color: rgb(7, 151, 234);
+}
+.bloc3_number3{
+    background-color: #34363a;
+}
+.blocs-color  .fa{
+    padding: 20px 20px;
+    color: #fff;
+}
+.options{
+    display: block;
+}
+.select-items{
+   margin: 30px;
+}
+#specialistes{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.mini-logo{
+    width: 60px;
+}
+/******style du quatrieme section**/
+.number4{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.greentext{
+    width: 300px;
+    font-size: 1.5em;
+    color: #1dd1a1;
+    line-height: 1.3em;
+}
+.items{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 20px;
+    gap: 20px;
+}
+.img-synet{
+    width: 20px;
+}
+.img-synet ,a{
+    color: #9299a0;
+}
+#last-item{
+    width: 100px;
+}
+/**********style du cinquieme section****/
+.number5{
+    background-color: #56e3bd38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.sygnet_number5{
+    width: 400px;
+}
+.bloc_sygnet{
+    width: 450px;
+    margin: 20px;
+    padding-top: 220px;
+}
+.bloc_sygnet p{
+    padding-bottom: 20px;
+}
+.title_number5{
+    color: #1dd1a1;
+    font-size: 2em;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.bloc_card{
+    display: block;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+#bloc_card1{
+    margin-top: 60px;
+}
+.card{
+    width: 260px;
+    height: 250px;
+    border-radius: 3%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    align-content: center;
+    padding: 10px ;
+}
+.card p{
+    text-align: center;
+}
+.card>h2{
+   color: #1dd1a1 ;
+   text-align: center;
+   padding: 10px 20px;
+   font-weight: 100;
+} 
+ .fas{
+    height: 30px;
+    color: #1dd1a1;
+    padding-left: 100px ;
+}
+/****style du sixieme section**/
+.number6_title{
+    text-align: center;
+    width: 480px;
+    padding-top: 80px;
+}
+.number6_title>h2{
+    color: #1dd1a1;
+    font-size: 1.8em;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.number6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*****Style de la septieme section***/
+.number7_country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.number7{
+    width: 1000px;
+    margin: 70px 250px;
+}
+.carte_postal{
+   border-top-left-radius: 3%;
+   border-top-right-radius: 3%;
+}
+.white_bloc{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    gap: 4px;
+}
+.button{
+    width: 130px;
+    border: none;
+    border-radius: 6%;
+}
+.white_bloc>button{
+    background-color: rgb(51, 134, 203);
+}
+.button>span{
+    color: #fff;
+   
+}
+.card_country:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card_country:hover>a{
+    color: #9299a0;
+}
+.card_country>a:hover{
+    color: #9299a0;
+}
+
+/*******style de la huitieme section****/
+.number8{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.number8>h2{
+    color: #101010;
+    font-size: 1.8em;
+    padding-bottom: 50px;
+}
+.blue_button>button{
+    padding: 5px 10px;
+    background-color:  rgb(51, 134, 203);
+    border: none;
+    border-radius: 4%;
+    height: 40px;
+}
+.links{
+    color: #fff;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+footer>p{
+    font-size: 0.8em;
+}
+footer a{
+    color: rgb(51, 134, 203);
+}
+footer a:hover{
+    text-decoration: underline;
+    color:rgb(51, 134, 203) ;
+}
+/********styles de card_country***/
+.card_country{
+    /* Styles de base de la carte */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.show {
+    opacity: 1;
+}
